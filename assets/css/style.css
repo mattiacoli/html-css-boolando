@@ -119,6 +119,7 @@ section {
     bottom: 120px;
     left: 0;
     gap: 1rem;
+    z-index: +1;
   }
 
   .heart{
@@ -128,10 +129,20 @@ section {
     position: absolute;
     right: 0;
     top:1rem;
+    z-index: +1;
   }
 
-  
+  .hover-pic{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+  }
 
+}
+
+.card:hover div.hover-pic{
+  display: block;
 }
 
 /* #endregion main */
