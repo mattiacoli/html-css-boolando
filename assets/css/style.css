@@ -121,6 +121,15 @@ section {
     gap: 1rem;
   }
 
+  .heart{
+    font-size: 2rem;
+    padding: 0.5rem;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top:1rem;
+  }
+
   
 
 }
@@ -147,4 +156,5 @@ footer {
     margin-top: 1rem;
     gap: 1rem;    
   }
+
 }
