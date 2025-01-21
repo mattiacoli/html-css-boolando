@@ -129,6 +129,10 @@ section {
     right: 0;
     top: 1rem;
     z-index: +1;
+
+    .fa-heart:hover{
+      color: red;
+    }
   }
 
   .hover-pic {
