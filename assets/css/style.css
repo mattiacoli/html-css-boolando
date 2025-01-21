@@ -8,6 +8,11 @@ body {
   font-family: Arial, Helvetica, sans-serif
 }
 
+a {
+  text-decoration: none;
+  color: var(--bool-lighter);
+}
+
 
 
 /* #region utilities */
@@ -57,8 +62,7 @@ header {
     gap: 1rem;
 
     a {
-      text-decoration: none;
-      color: var(--bool-lighter);
+      font-weight: 800;
     }
   }
 
@@ -86,12 +90,36 @@ section {
   .price {
     display: inline-block;
     color: red;
-    font-weight: 800;
+    font-weight: 700;
   }
 
-  span{
+  span {
     margin-left: 2px;
-    text-decoration:line-through;
+    text-decoration: line-through;
   }
 
+}
+
+/* #endregion main */
+
+/* footer */
+
+footer {
+  height: 110px;
+  background-color: var(--bool-dark);
+  align-items: center;
+
+  .d-flex {
+    justify-content: space-between;
+    color: var(--bool-lighter);
+  }
+
+  a {
+    font-size: 0.75rem;
+  }
+
+  .social-icon{
+    margin-top: 1rem;
+    gap: 1rem;    
+  }
 }
