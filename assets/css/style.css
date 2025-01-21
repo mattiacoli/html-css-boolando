@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+:root{
+  --bool-primary:#ff6900;
+  --bool-lighter:#ffff;
+  --bool-dark:#1a1a1a;
+  --bool-sconti:#ff0000;
+  --bool-detail:#008000;
+}
+
