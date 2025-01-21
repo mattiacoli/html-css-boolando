@@ -53,6 +53,10 @@ header {
   height: 74px;
   box-shadow: 0 0 5px;
   margin-bottom: 3rem;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+ 
 
   .d-flex {
     justify-content: space-between;
@@ -85,6 +89,8 @@ header {
 section {
   flex-wrap: wrap;
   gap: 1rem;
+  padding-top: 100px;
+
 }
 
 /* card */
