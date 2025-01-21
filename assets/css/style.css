@@ -24,15 +24,6 @@ a {
   --bool-detail: #008000;
 }
 
-.details{
-  background-color: var(--bool-detail);
-  padding: 0.5rem 1rem;
-}
-
-.discount{
-  background-color: var(--bool-sconti);
-  padding: 0.5rem 1rem;
-}
 
 .d-flex {
   display: flex;
@@ -43,6 +34,15 @@ a {
   margin: auto;
 }
 
+.details {
+  background-color: var(--bool-detail);
+  padding: 0.5rem 1rem;
+}
+
+.discount {
+  background-color: var(--bool-sconti);
+  padding: 0.5rem 1rem;
+}
 
 /* #endregion utilities */
 
@@ -57,7 +57,6 @@ header {
   .d-flex {
     justify-content: space-between;
     align-items: center;
-
   }
 
   img {
@@ -88,7 +87,7 @@ section {
   gap: 1rem;
 }
 
-
+/* card */
 .card {
 
   margin-bottom: 2rem;
@@ -110,8 +109,8 @@ section {
     text-decoration: line-through;
   }
 
-  
-  .tag{
+
+  .tag {
     color: white;
     font-weight: 800;
     text-align: center;
@@ -122,17 +121,17 @@ section {
     z-index: +1;
   }
 
-  .heart{
+  .heart {
     font-size: 2rem;
     padding: 0.5rem;
     background-color: white;
     position: absolute;
     right: 0;
-    top:1rem;
+    top: 1rem;
     z-index: +1;
   }
 
-  .hover-pic{
+  .hover-pic {
     position: absolute;
     top: 0;
     left: 0;
@@ -141,14 +140,13 @@ section {
 
 }
 
-.card:hover div.hover-pic{
+.card:hover div.hover-pic {
   display: block;
 }
 
 /* #endregion main */
 
 /* footer */
-
 footer {
   height: 110px;
   background-color: var(--bool-dark);
@@ -161,11 +159,14 @@ footer {
 
   a {
     font-size: 0.75rem;
+
+    &:hover{
+      text-decoration: underline;
+    }
   }
 
-  .social-icon{
-    margin-top: 1rem;
-    gap: 1rem;    
+  .social-icon {
+    margin-top: 0.5rem;
   }
 
 }
